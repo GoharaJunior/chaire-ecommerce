@@ -1,0 +1,75 @@
+/* Reset Geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Paletas de cores */
+:root {
+  --menu-color: #272727;
+  --primary-title: #717171;
+  --neutral: #fff;
+  --primary-color: #FF5754;
+  --btn-hover: #636363;
+  --btn-green: #86C100;
+  --yellow-notification: #FFC200;
+}
+
+/* MENU */
+.menu_bg {
+  background-color: var(--menu-color);
+}
+
+.menu {
+max-width: 1171px;
+margin: 0 auto;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.menu img {
+  width: 125px;
+}
+
+.menu_nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu_nav ul li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px;
+  font-family: rubik;
+  color: var(--neutral);
+}
+
+.menu_nav ul li a::after {
+  content: '';
+  display: inline-block;
+  background: url('/images/seta.svg') center center no-repeat;
+  height: 8px;
+  width: 8px;
+  background-size: 8px;
+  position: relative;
+  top: -1px;
+  margin-left: 5px;
+  width: 10px;
+}
+
+.menu_nav .hot-sale  a{
+  color: var(--primary-color);
+  font-family: Alien League;
+  font-size: 15px;
+}
+
+
