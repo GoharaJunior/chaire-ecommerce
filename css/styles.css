@@ -280,7 +280,66 @@ flex-wrap: wrap;
   border-bottom: 1px solid var(--line-color);
   padding-bottom: 50px;
 }
+/* Nossas promoções */
+.promocoes_container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.promocoes_container h2 {
+  text-align: center;
+  font-family: Rubik;
+  font-weight: lighter;
+  color: var(--primary-title);
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+.promocoes_item_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promocoes_item img {
+  margin-bottom: 20px;
+}
+
+.promocoes_item p {
+  font-size: 12px;
+  color: var(--primary-title);
+  font-family: Rubik;
+  margin-bottom: 5px;
+}
+
+.promocoes_item .risco {
+  text-decoration: line-through;
+}
+
+.promocoes_item span {
+  font-weight: bold;
+  font-family: Rubik;
+  font-size: 14px;
+  color: var(--primary-title);
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.promocoes_container {
+  border-bottom: 1px solid var(--line-color);
+  padding-bottom: 50px;
+}
