@@ -82,6 +82,44 @@ flex-wrap: wrap;
   font-family: Alien League;
   font-size: 15px;
 }
+
+@media (max-width: 630px) {
+  /* MENU */
+  .menu  { 
+    display: flex;
+    height: 100px;
+    justify-content: center;
+  }
+  .menu img {
+  margin-top: 25px;    
+  }
+  .menu_nav {
+    visibility: hidden;
+  }
+  .menu_busca {
+    visibility: hidden;
+  }
+  .menu_icons {
+    visibility: hidden;
+  }
+  .carrinho {
+    visibility: hidden;
+  }
+  .menu_busca_box {
+    display: flex;
+  }
+  /* BANNER */
+  .banner_bg {
+    height: 600px;
+  }
+  /* SITE INFO */
+  .site_info {
+    flex-direction: column;
+  }
+  .site_info_box {
+  }
+}
+
 /* Busca */
 .menu_busca {
   display: flex;
@@ -259,12 +297,6 @@ flex-wrap: wrap;
 
 .mais_vendidos_item img {
   margin-bottom: 20px;
-}
-/* TESTES */
-.mais_vendidos_item.active {
-  background: #f25f;
-  transition: 0.2s;
-  background: url('/images/banner-01.png');
 }
 
 .mais_vendidos_item p {

@@ -1,5 +1,3 @@
-const dropdownMenus = document.querySelectorAll('[data-dropdown]');
-
 dropdownMenus.forEach(menu => {
   menu.addEventListener('touchstart', handleClick);
   menu.addEventListener('click', handleClick);
@@ -36,26 +34,3 @@ function outsideClick(element, events, callback) {
     }
   }
 }
-
-
-
-$('.mais_vendidos_item').removeClass('active');
-$(this).addClass('active');
-
-
-// $('.mais_vendidos_item').hover(function (){
-
-//   $(function(){
-// 		$('.mais_vendidos_item').hover(
-// 			function(){
-// 				//Ao posicionar o cursor sobre a div
-// 				$(this).css('background', 'black');
-// 			},
-// 			function(){
-// 				//Ao remover o cursor da div
-// 				$(this).css('background', 'white');
-// 			}
-// 		);
-// 	});
-
-// });
