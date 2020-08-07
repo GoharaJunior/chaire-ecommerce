@@ -1,3 +1,7 @@
+/* imports */
+@import 'dropdown-menu.css';
+
+
 /* Reset Geral */
 * {
   margin: 0;
@@ -120,8 +124,6 @@ flex-wrap: wrap;
   align-items: center;
   font-style: italic;
 }
-
-
 
 .menu_icons img {
   width: 24px;
@@ -257,6 +259,11 @@ flex-wrap: wrap;
 
 .mais_vendidos_item img {
   margin-bottom: 20px;
+}
+/* TESTES */
+.mais_vendidos_item.active {
+  background: black;
+  transition: 0.2s;
 }
 
 .mais_vendidos_item p {
@@ -628,7 +635,11 @@ padding-top: 50px;
 
 .box-icons {
   margin: 30px 0;
-  align-content: start;
+  align-items: initial;
+}
+
+.box-icons img {
+  padding: 0 5px;
 }
 
 .box-buttons > .custom-btn3 {
