@@ -262,8 +262,9 @@ flex-wrap: wrap;
 }
 /* TESTES */
 .mais_vendidos_item.active {
-  background: black;
+  background: #f25f;
   transition: 0.2s;
+  background: url('/images/banner-01.png');
 }
 
 .mais_vendidos_item p {
@@ -456,6 +457,11 @@ flex-wrap: wrap;
   border: 0px;
   padding: 15px 20px;
   left: -50px;
+  transition: 0.2s;
+}
+
+.newsletter_container button:hover {
+  color: var(--gray-hover);
 }
 
 .newsletter_box3 {
@@ -495,6 +501,10 @@ flex-wrap: wrap;
   color: var(--btn-hover);
   font-weight: 500;
   transition: 0.2s;
+}
+
+.footer_container ul li a:hover {
+  color: var(--gray-hover);
 }
 
 .footer_container ul li a:hover {

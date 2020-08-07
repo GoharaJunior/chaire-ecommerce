@@ -29,8 +29,8 @@
   z-index: 200;
   display: flex;
   padding: 10px 20px;
-  top: 54px;
-  right: -20px;
+  top: 25px;
+  right: -23px;
 }
 
 .dropdown-menu::before {
@@ -45,8 +45,6 @@
   border-right: 10px solid transparent;
   border-bottom: 10px solid var(--primary-title);;
 }
-
-
 
 .dropdown-menu li a:hover {
   color: var(--neural);
