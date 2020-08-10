@@ -307,6 +307,12 @@ flex-wrap: wrap;
     justify-content: center;
     margin-top: 15px;
   }
+  .footer_width{
+    flex-direction: column;
+  }
+  .box-buttons{
+    flex-direction: column;
+  }
 }
 
 /* Fotos modelo*/
