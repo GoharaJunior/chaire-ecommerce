@@ -263,6 +263,37 @@ flex-wrap: wrap;
   padding-right: 80px;
 }
 
+@media (max-width: 630px) {
+  .site_info_box {
+    margin-bottom: 20px;
+  }
+  .site_info_box:nth-child(-n + 3) {
+    border-right: none;
+    padding-right: 0;
+    border-bottom: 1px solid var(--border-gray);
+    padding-bottom: 20px;
+  }
+  .fotos_modelos img {
+    margin-bottom: 20px;
+    width: 350px;
+  }
+  .mais_vendidos_item {
+    margin-bottom: 20px;
+  }
+  .mais_vendidos_item_box {
+    flex-direction: column;
+  }
+  .promocoes_item_box {
+    flex-direction: column;
+  }
+  .promocoes_item {
+    margin-bottom: 20px;
+  }
+  .novidade_item_box {
+    flex-direction: column;
+  }
+}
+
 /* Fotos modelo*/
 .fotos_modelos {
   display: flex;
