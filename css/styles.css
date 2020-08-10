@@ -116,8 +116,6 @@ flex-wrap: wrap;
   .site_info {
     flex-direction: column;
   }
-  .site_info_box {
-  }
 }
 
 /* Busca */
@@ -264,6 +262,13 @@ flex-wrap: wrap;
 }
 
 @media (max-width: 630px) {
+  .banner_bg {
+    background-image: url(/images/mobile.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 415px;
+  }
   .site_info_box {
     margin-bottom: 20px;
   }
@@ -291,6 +296,16 @@ flex-wrap: wrap;
   }
   .novidade_item_box {
     flex-direction: column;
+  }
+  .newsletter_container {
+    flex-direction: column;
+  }
+  .newsletter_box1 {
+    flex-direction: column;
+  }
+  .newsletter_box3 {
+    justify-content: center;
+    margin-top: 15px;
   }
 }
 
