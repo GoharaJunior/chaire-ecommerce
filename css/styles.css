@@ -83,41 +83,6 @@ flex-wrap: wrap;
   font-size: 15px;
 }
 
-@media (max-width: 630px) {
-  /* MENU */
-  .menu  { 
-    display: flex;
-    height: 100px;
-    justify-content: center;
-  }
-  .menu img {
-  margin-top: 25px;    
-  }
-  .menu_nav {
-    visibility: hidden;
-  }
-  .menu_busca {
-    visibility: hidden;
-  }
-  .menu_icons {
-    visibility: hidden;
-  }
-  .carrinho {
-    visibility: hidden;
-  }
-  .menu_busca_box {
-    display: flex;
-  }
-  /* BANNER */
-  .banner_bg {
-    height: 600px;
-  }
-  /* SITE INFO */
-  .site_info {
-    flex-direction: column;
-  }
-}
-
 /* Busca */
 .menu_busca {
   display: flex;
@@ -259,60 +224,6 @@ flex-wrap: wrap;
 .site_info_box:nth-child(-n + 3) {
   border-right: 1px solid var(--border-gray);
   padding-right: 80px;
-}
-
-@media (max-width: 630px) {
-  .banner_bg {
-    background-image: url(/images/mobile.png);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    height: 415px;
-  }
-  .site_info_box {
-    margin-bottom: 20px;
-  }
-  .site_info_box:nth-child(-n + 3) {
-    border-right: none;
-    padding-right: 0;
-    border-bottom: 1px solid var(--border-gray);
-    padding-bottom: 20px;
-  }
-  .fotos_modelos img {
-    margin-bottom: 20px;
-    width: 350px;
-  }
-  .mais_vendidos_item {
-    margin-bottom: 20px;
-  }
-  .mais_vendidos_item_box {
-    flex-direction: column;
-  }
-  .promocoes_item_box {
-    flex-direction: column;
-  }
-  .promocoes_item {
-    margin-bottom: 20px;
-  }
-  .novidade_item_box {
-    flex-direction: column;
-  }
-  .newsletter_container {
-    flex-direction: column;
-  }
-  .newsletter_box1 {
-    flex-direction: column;
-  }
-  .newsletter_box3 {
-    justify-content: center;
-    margin-top: 15px;
-  }
-  .footer_width{
-    flex-direction: column;
-  }
-  .box-buttons{
-    flex-direction: column;
-  }
 }
 
 /* Fotos modelo*/
@@ -742,6 +653,97 @@ padding-top: 50px;
   height: 50px;
 }
 
+/* Responsive */
+@media (max-width: 630px) {
+
+  .menu  { 
+    display: flex;
+    height: 100px;
+    justify-content: center;
+  }
+  .menu img {
+  margin-top: 25px;    
+  }
+  .menu_nav {
+    visibility: hidden;
+  }
+  .menu_busca {
+    visibility: hidden;
+  }
+  .menu_icons {
+    visibility: hidden;
+  }
+  .carrinho {
+    visibility: hidden;
+  }
+  .menu_busca_box {
+    display: flex;
+  }
+  /* BANNER */
+  .banner_bg {
+    height: 600px;
+  }
+  /* SITE INFO */
+  .site_info {
+    flex-direction: column;
+  }
+  .banner_bg {
+    background-image: url(/images/mobile.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 415px;
+  }
+  .site_info_box {
+    margin-bottom: 20px;
+  }
+  .site_info_box:nth-child(-n + 3) {
+    border-right: none;
+    padding-right: 0;
+    border-bottom: 1px solid var(--border-gray);
+    padding-bottom: 20px;
+  }
+  .fotos_modelos img {
+    margin-bottom: 20px;
+    width: 350px;
+  }
+  .mais_vendidos_item {
+    margin-bottom: 20px;
+  }
+  .mais_vendidos_item_box {
+    flex-direction: column;
+  }
+  .promocoes_item_box {
+    flex-direction: column;
+  }
+  .promocoes_item {
+    margin-bottom: 20px;
+  }
+  .novidade_item_box {
+    flex-direction: column;
+  }
+  .newsletter_container {
+    flex-direction: column;
+  }
+  .newsletter_box1 {
+    flex-direction: column;
+  }
+  .newsletter_box3 {
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .box-buttons{
+    flex-direction: column;
+  }
+  .footer_width {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer_container {
+    justify-content: center;
+  }
+}
 
 
 
