@@ -10,8 +10,6 @@
 
 ## Observação 
 
-## !! 🛑 Não esta responsivo
-
 Até que pro meu primeiro layout de e-Commerce saiu bom e pretendo treinar mais.
 
 Talves eu tenha pecado nas interações pedida, interações mas isso só me mostrou o quanto eu tenho que estudar mais com interações na DOM e corrigir essa falha.
