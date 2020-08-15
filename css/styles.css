@@ -235,6 +235,11 @@ padding: 0 20px;
   flex-wrap: wrap;
 }
 
+.slick-slider {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
 .fotos_modelos img {
   padding: 0 10px;
 }
@@ -259,7 +264,7 @@ padding: 0 20px;
   align-items: center;
 }
 
-.mais_vendidos_item+..mais_vendidos_item {
+.mais_vendidos_item+.mais_vendidos_item {
   padding-left: 20px;
 }
 
@@ -718,12 +723,11 @@ padding-top: 50px;
   }
 }
 
-@media (max-width: 910px;) {
+@media (max-width: 910px) {
   .menu img {
     margin: 0 auto;
   }
 }
-
 
 @media (max-width: 630px) {
   .menu  { 
@@ -830,9 +834,4 @@ padding-top: 50px;
   .last-buttons-container {
     margin: 50px 0;
   }
-}
-
-
-
-
-
+}}
