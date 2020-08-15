@@ -5,7 +5,6 @@
 
 ## Links
 
-👨‍💻 Página publicado: https://chaire.netlify.app/ </br>
 🐱 GitHub: https://github.com/GoharaJunior/chaire-ecommerce
 
 ## Observação 
