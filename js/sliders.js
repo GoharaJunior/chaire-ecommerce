@@ -5,6 +5,14 @@ $(document).ready(function(){
     slidesToScroll: 3,
     centerMode: true,
     prevArrow: $("#arrow-prev"),
-    nextArrow: $("#arrow-next")
+    nextArrow: $("#arrow-next"),
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   });
 });
