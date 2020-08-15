@@ -238,6 +238,9 @@ padding: 0 20px;
 .slick-slider {
   max-width: 1120px;
   margin: 0 auto;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .fotos_modelos img {
