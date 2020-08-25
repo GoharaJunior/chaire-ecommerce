@@ -14,9 +14,6 @@
 ## Observação 
 Meu primeiro layou de E-commerce que desenvolvo em código.
 
-Eu decidi direcionar meu foco, digo 100% do meu foco em ser um **Especialista em E-commerce** acredito</br>que
-os próximos vão estar mais bem estruturados e com mais interações.
-
 Estou a disposição para novos testes, treinamentos ou algo do tipo, equanto isso estarei a todo</br>
 vapor estudando e aprofundando mais sobre.
 <div  align="center">
