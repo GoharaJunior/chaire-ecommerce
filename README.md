@@ -14,8 +14,6 @@
 ## Observação 
 Meu primeiro layou de E-commerce que desenvolvo em código.
 
-Estou a disposição para novos testes, treinamentos ou algo do tipo, equanto isso estarei a todo</br>
-vapor estudando e aprofundando mais sobre.
 <div  align="center">
   <img src="https://user-images.githubusercontent.com/57417305/89683760-820de500-d8cf-11ea-99cb-29845920ed65.png">
 </div>
